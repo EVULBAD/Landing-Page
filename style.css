@@ -1,0 +1,54 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+
+ul {
+    display:flex;
+    gap:16px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+
+.header, .footer {
+    background:#1F2937;
+    color:white;
+    width:100%;
+    display:flex;
+}
+
+.header {
+    flex-direction:column;
+}
+
+.top {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:16px 15%;
+}
+
+.left, .right{
+    display:flex;
+    gap:16px;
+}
+
+.signup {
+    display:flex;
+    flex-direction:column;
+}
+
+.logo {
+    color:#F9FAF8;
+    font-size:24px;
+}
+
+.quote {
+    background:#E5E7Eb;
+}
