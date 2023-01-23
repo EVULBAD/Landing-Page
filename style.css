@@ -91,6 +91,7 @@ button {
 
 .signup>.left {
     flex-direction:column;
+    justify-content:center;
 }
 
 .signup>.right {
